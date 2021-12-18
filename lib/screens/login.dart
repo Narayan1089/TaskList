@@ -67,7 +67,7 @@ class _LoginState extends State<Login> {
                   ),
                   const SizedBox(height: 10),
                   TextField(
-                    style: TextStyle(color: Colors.black),
+                    style: const TextStyle(color: Colors.black),
                     controller: emailController,
                     keyboardType: TextInputType.emailAddress,
                     decoration: const InputDecoration(
@@ -77,7 +77,7 @@ class _LoginState extends State<Login> {
                   ),
                   const SizedBox(height: 10),
                   TextField(
-                    style: TextStyle(color: Colors.black),
+                    style: const TextStyle(color: Colors.black),
                     controller: passwordController,
                     obscureText: true,
                     decoration: const InputDecoration(
@@ -123,7 +123,8 @@ class _LoginState extends State<Login> {
 
                         if (user != null) {
                           Navigator.of(context).pushReplacement(
-                            MaterialPageRoute(builder: (context) => Home()),
+                            MaterialPageRoute(
+                                builder: (context) => const Home()),
                           );
                         }
                       },

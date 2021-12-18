@@ -122,7 +122,7 @@ class _RegisterState extends State<Register> {
                         ),
                         const SizedBox(height: 10),
                         TextField(
-                          style: TextStyle(color: Colors.black),
+                          style: const TextStyle(color: Colors.black),
                           controller: nameController,
                           decoration: const InputDecoration(
                             hintText: "User Name",
@@ -132,7 +132,7 @@ class _RegisterState extends State<Register> {
                         ),
                         const SizedBox(height: 10),
                         TextField(
-                          style: TextStyle(color: Colors.black),
+                          style: const TextStyle(color: Colors.black),
                           controller: emailController,
                           keyboardType: TextInputType.emailAddress,
                           decoration: const InputDecoration(
@@ -142,7 +142,7 @@ class _RegisterState extends State<Register> {
                         ),
                         const SizedBox(height: 10),
                         TextField(
-                          style: TextStyle(color: Colors.black),
+                          style: const TextStyle(color: Colors.black),
                           controller: passwordController,
                           obscureText: true,
                           decoration: const InputDecoration(
@@ -203,7 +203,7 @@ class _RegisterState extends State<Register> {
                                     Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                            builder: (_) => Home()));
+                                            builder: (_) => const Home()));
                                     print("Account Created Sucessfull");
                                   } else {
                                     print("Login Failed");

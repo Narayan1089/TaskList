@@ -490,27 +490,6 @@ class _HomeState extends State<Home> {
       ),
     );
   }
-
-  // @override
-  // Widget build(BuildContext context) {
-  //   return SafeArea(
-  //     child: MaterialApp(
-  //       debugShowCheckedModeBanner: false,
-  //       home: Scaffold(
-  //         body: Container(
-  //             color: Colors.white,
-  //             child: Column(
-  //               children: [
-  //                 Container(
-  //                     height: MediaQuery.of(context).size.height * 0.3,
-  //                     width: MediaQuery.of(context).size.height * 0.5,
-  //                     child: Image.asset('assets/Tasks.png'))
-  //               ],
-  //             )),
-  //       ),
-  //     ),
-  //   );
-  // }
 }
 
 

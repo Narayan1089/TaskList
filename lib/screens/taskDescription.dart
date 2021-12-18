@@ -9,13 +9,13 @@ class Description extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Description')),
+      appBar: AppBar(title: const Text('Description')),
       body: Container(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              margin: EdgeInsets.all(10),
+              margin: const EdgeInsets.all(10),
               child: Text(
                 title,
                 style: GoogleFonts.roboto(
@@ -23,7 +23,7 @@ class Description extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.all(10),
+              margin: const EdgeInsets.all(10),
               child: Text(
                 description,
                 style: GoogleFonts.roboto(fontSize: 18),
